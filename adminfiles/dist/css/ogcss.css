@@ -1,0 +1,468 @@
+#barangayofficialslistdt th,
+#residentsdt th,
+#verificationdt th,
+#usersdt th,
+#viewhouseholdr th,
+#householddt th,
+#viewrequestsdt th,
+#viewrequestsdttwo th,
+#blotterdt th   {
+    background-color: #232743;
+    color: white;
+    padding: 10px;
+  }
+
+  /* CLASSES */
+  .fl {
+    float: left;
+  }
+  .fr {
+    float: right;
+  }
+/*For the datatable*/
+
+.dt-search,
+.dt-buttons {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+.dt-info {
+  margin-left:10px;
+  margin-bottom: 10px;
+}
+
+.dt-buttons button {
+  background-color: #232743;
+  border-color: #232743;
+  color: white;
+}
+
+.dt-buttons button:hover {
+  background-color: #1d1f32;
+}
+
+
+.filter-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+}
+
+select {
+  font-size: 1em;
+  outline: none;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 5px;
+  padding: 8px 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+table.dataTable thead th, table.dataTable tfoot th {
+  font-weight: normal !important;
+}
+
+div.dt-container div.dt-paging {
+  margin-right:10px !important;
+  margin-bottom: 15px !important;
+  margin-top: 7px !important;
+}
+.card-body {
+  padding: 14px !important;
+}
+
+.btnSave:hover {
+  background-color: #0056b3 !important;
+}
+
+.button:hover {
+  background-color: #0056b3 !important;
+}
+.btnSave {
+  padding: 8px 16px;
+  border: none;
+  background-color: #232743; /* Updated color */
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.btnSave:hover {
+  background-color: #001f33; /* Darken the color on hover */
+}
+
+
+.at-modal__button8{ 
+  background-color: #4CAF50 !important;
+  color: #ffffff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.at-modal__button4,
+.at-modal__button1{ 
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/*For Modals*/
+.at-modal__header1,
+.at-modal__header2,
+.at-modal__header3,
+.at-modal__header4,
+.at-modal__header5,
+.at-modal__header6,
+.at-modal__header7,
+.at-modal__header8,
+.at-modal__header9 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  color: #404040;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.at-modal__footer1,
+.at-modal__footer2,
+.at-modal__footer3,
+.at-modal__footer4,
+.at-modal__footer5,
+.at-modal__footer6,
+.at-modal__footer7,
+.at-modal__footer8,
+.at-modal__footer9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.at-modal__button1,
+.at-modal__button2,
+.btn-archive,
+.at-modal__button4,
+.at-modal__button5,
+.btn-verify,
+.at-modal__button7,
+.at-modal__button8,
+.at-modal__button9 {
+  display: inline-block;
+  background: #FFFFFF;
+  height: 36px;
+  border: 0;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  color: #404040;
+  line-height: 36px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  pointer-events: auto;
+  color: #ffffff;
+  border-radius:none !important;
+}
+
+.at-modal__button1,
+.at-modal__button4 {
+  background: #17a2b8;
+  color: #FFFFFF;
+}
+
+.at-modal__button2,
+.at-modal__button5,
+.at-modal__button9 {
+  background-color: #007bff;
+  color: #ffffff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.btn-archive {
+  background-color: #d9534f;
+  color: #ffffff;
+  border-radius: none !important;
+}
+
+.btn-verify {
+  background-color: #198754;
+  color: #ffffff;    
+}
+
+.at-modal-1,
+.at-modal-2,
+.at-modal-3,
+.at-modal-4,
+.at-modal-5,
+.at-modal-6,
+.at-modal-7,
+.at-modal-8,
+.at-modal-9 {
+  z-index: 9999;
+}
+
+.confirm-archive,
+.confirm-verify {
+  margin-right: 10px;
+}
+
+.custom-alert {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #c3e6cb;
+}
+
+.custom-danger {
+  background-color: #ffc2c2;
+  color: #8b0000;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ffc2c2;
+}
+
+.action-header,
+.action-buttons {
+  text-align: center;
+}
+
+#create-resident-btn {
+  float: right;
+}
+
+/* Button Styles */
+.at-modal__button3 {
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.confirm-archive {
+  background-color: #DC3545; /* Red color for danger button */
+  color: #fff;
+}
+
+.confirm-archive:hover {
+  background-color: #C82333; /* Darker red color on hover */
+}
+
+button[data-modal-action="#close"] {
+  background-color: #6c757d; /* Gray color for cancel button */
+  color: #fff;
+}
+
+button[data-modal-action="#close"]:hover {
+  background-color: #5a6268; /* Darker gray color on hover */
+}
+
+.alert {
+    margin-bottom: 0px !important;
+}
+
+/*.modal-backdrop.show {
+    opacity: .3;
+}*/
+#modal-4 .modal-dialog {
+    max-width: 680px; /* Adjust the width as needed */
+}
+
+#modal-9 .modal-dialog {
+    max-width: 430px; /* Adjust the width as needed */
+}
+
+#modal-7 .modal-dialog {
+    max-width: 400px; /* Adjust the width as needed */
+}
+/**
+ * Panels
+ */
+/*** General styles ***/
+.panel {
+  box-shadow: none;
+}
+.panel-heading {
+  border-bottom: 0;
+}
+.panel-title {
+  font-size: 17px;
+}
+.panel-title > small {
+  font-size: .75em;
+  color: #999999;
+}
+.panel-body *:first-child {
+  margin-top: 0;
+}
+.panel-footer {
+  border-top: 0;
+}
+
+.panel-default > .panel-heading {
+    color: #333333;
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.07);
+}
+
+/**
+ * Profile
+ */
+/*** Profile: Header  ***/
+.profile__avatar {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .profile__avatar {
+    width: 100px;
+    height: 100px;
+  }
+}
+.profile__avatar > img {
+  width: 100%;
+  height: auto;
+}
+.profile__header {
+  overflow: hidden;
+}
+.profile__header p {
+  margin: 20px 0;
+}
+/*** Profile: Table ***/
+@media (min-width: 992px) {
+  .profile__table tbody th {
+    width: 200px;
+  }
+}
+/*** Profile: Recent activity ***/
+.profile-comments__item {
+  position: relative;
+  padding: 15px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.profile-comments__item:last-child {
+  border-bottom: 0;
+}
+.profile-comments__item:hover,
+.profile-comments__item:focus {
+  background-color: #f5f5f5;
+}
+.profile-comments__item:hover .profile-comments__controls,
+.profile-comments__item:focus .profile-comments__controls {
+  visibility: visible;
+}
+.profile-comments__controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  visibility: hidden;
+}
+.profile-comments__controls > a {
+  display: inline-block;
+  padding: 2px;
+  color: #999999;
+}
+.profile-comments__controls > a:hover,
+.profile-comments__controls > a:focus {
+  color: #333333;
+}
+.profile-comments__avatar {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile-comments__avatar > img {
+  width: 100%;
+  height: auto;
+}
+.profile-comments__body {
+  overflow: hidden;
+}
+.profile-comments__sender {
+  color: #333333;
+  font-weight: 500;
+  margin: 5px 0;
+}
+.profile-comments__sender > small {
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #999999;
+}
+@media (max-width: 767px) {
+  .profile-comments__sender > small {
+    display: block;
+    margin: 5px 0 10px;
+  }
+}
+.profile-comments__content {
+  color: #999999;
+}
+/*** Profile: Contact ***/
+.profile__contact-btn {
+  padding: 12px 20px;
+  margin-bottom: 20px;
+}
+
+.profile__contact-info-item {
+  margin-bottom: 30px;
+}
+.profile__contact-info-item:before,
+.profile__contact-info-item:after {
+  content: " ";
+  display: table;
+}
+.profile__contact-info-item:after {
+  clear: both;
+}
+.profile__contact-info-item:before,
+.profile__contact-info-item:after {
+  content: " ";
+  display: table;
+}
+.profile__contact-info-item:after {
+  clear: both;
+}
+.profile__contact-info-icon {
+  float: left;
+  font-size: 18px;
+  color: #999999;
+}
+.profile__contact-info-body {
+  overflow: hidden;
+  padding-left: 20px;
+  color: #999999;
+}
+.profile__contact-info-body a {
+  color: #999999;
+}
+.profile__contact-info-body a:hover,
+.profile__contact-info-body a:focus {
+  color: #999999;
+  text-decoration: none;
+}
+.profile__contact-info-heading {
+  margin-top: 2px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #999999;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Template</title>
+    <link rel="stylesheet" href="BarangayTemplateCSS.css">
+</head>
+<body>
+    <div class="certificate-container">
+        <div class="certificate">
+            <!-- Left Logo -->
+            <div class="logo-left" style="position: absolute;">
+                <img src="left_logo.png" alt="Left Logo" style="max-width: 130px;">
+            </div>
+            <!-- Right Logo -->
+            <div class="logo-right" style="position: absolute;">
+                <img src="right_logo.png" alt="Right Logo" style="max-width: 120px;">
+            </div>
+            <div class="certificate-header">
+                <!-- Center Logo -->
+                <div class="logo-center">
+                    <img src="center_logo.png" alt="Center Logo" style="max-width: 550px;">
+                </div>
+                <!-- Text in front of the center logo -->
+                <div class="certificate-text">
+                    <p>REPUBLIC OF THE PHILIPPINES<br>City of Manila<br><strong class="bold"> BARANGAY 731, ZONE 80, DISTRICT-5</strong></p>
+                    <!-- Insert WordArt-like text below -->
+                    <div class="wordart-container">
+                        <div class="wordart-text">BARANGAY CERTIFICATE</div>
+                        <div class="wordart-shadow">BARANGAY CERTIFICATE</div>
+                    </div>                   
+                </div>
+            </div>
+            <table border="1" class="certificate-table">
+                <tr>
+                    <td style="width: 350px;"> REFERENCE NO </td>
+                    <td colspan="2" style="width: 300px;"> VALID UNTIL </td> <!-- Combined cell for VALID UNTIL -->
+                    <td style="width: 120px;"> NUMBER </td>
+                </tr>    
+                <tr>
+                    <td style="width: 150px;"> FAMILY NAME </td>
+                    <td colspan="2" style="width: 300px;"> FIRST NAME </td> <!-- Combined cell for FAMILY NAME and FIRST NAME -->
+                    <td rowspan="4"> [BIOMETRICS] </td>
+                </tr>               
+                <tr>
+                    <td style="width: 150px;"> MIDDLE NAME </td>
+                    <td colspan="2" style="width: 300px;"> HUSBAND'S/WIFE'S NAME </td> <!-- Combined cell for FAMILY NAME and FIRST NAME -->
+                </tr>
+                <tr>
+                    <td colspan="3" style="width: 300px;"> ADDRESS </td> <!-- Combined cell for FAMILY NAME and FIRST NAME -->
+                </tr>
+                <tr>
+                    <td style="width: 150px;"> DATE OF BIRTH </td>
+                    <td colspan="2" style="width: 200px;"> PLACE OF BIRTH </td> <!-- Combined cell for FAMILY NAME and FIRST NAME -->
+                </tr>
+                <tr>
+                    <td> CITIZENSHIP </td>
+                    <td style="width: 200px;"> CIVIL STATUS </td>
+                    <td style="width: 200px;"> GENDER: <br> FEMALE </td>
+                    <td rowspan="3"> RIGHT THUMB [BIOMETRICS] </td> <!-- Adjusted width for the RIGHT THUMB column -->
+                </tr>                                             
+                <tr>
+                    <td colspan="3" style="width: 200px;"> PURPOSE </td>
+                </tr>
+                <tr>
+                    <td colspan="3"> REMARKS <br> NO DEROGATORY RECORD ON FILE <br>
+                        This is to certify that the name of person appearing and printed is NOT a registered voter, and given temporary clearance for the above purpose.
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="4"> REQUESTED BY: <br> RELATIONSHIP: <br> PREPARED BY: <br> DATE ISSUED: </td>
+                    <td rowspan="4"> Punong Barangay </td>
+                    <td colspan="2"> Tel Number: <br> MOBILE: <br> Email: </td>
+                </tr>
+            </table>                               
+        </div>
+    </div>        
+</body>
+</html>
